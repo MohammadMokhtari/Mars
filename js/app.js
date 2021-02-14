@@ -21,4 +21,13 @@ $(document).ready(function () {
     dataType: "dataType",
     success: function (response) {},
   });
+
+  // * For SignUp pafe in index.html
+  $.ajax({
+    type: "Post",
+    url: "url",
+    data: "data",
+    dataType: "dataType",
+    success: function (response) {},
+  });
 });
